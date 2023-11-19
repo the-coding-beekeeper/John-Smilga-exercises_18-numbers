@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8fafc;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.succeeded-projects {
+  border-bottom: 5px solid #f59e0b;
+}
+.working-hours {
+  border-bottom: 5px solid #14b8a6;
+}
+.happy-clients {
+  border-bottom: 5px solid #a855f7;
+}
+.number {
+  font-size: 5rem;
+  font-weight: 900;
+}
